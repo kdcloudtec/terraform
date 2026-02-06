@@ -15,7 +15,7 @@ resource "aws_subnet" "public" {
   availability_zone       = "ap-south-1a"
 
   tags = {
-    Name = "public-subnet-001"
+    Name = "public-subnet-1"
   }
 }
 
@@ -26,7 +26,7 @@ resource "aws_subnet" "private" {
   availability_zone       = "ap-south-1b"
 
   tags = {
-    Name = "private-subnet-001"
+    Name = "private-subnet-1"
   }
 }
 
