@@ -3,9 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test_bucket" {
-  bucket = "github-actions-bucket-kdcloudtec"
+  bucket = "github-bucket-kdcloudtec"
+  force_destroy = true
 
   tags = {
-    Name = "github-actions-bucket-kdcloudtec"
+    Name = "github-bucket-kdcloudtec"
   }
 }
