@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test_bucket" {
-  bucket = "github-actions-test-bucket-kdcloudtec"
+  bucket = "github-actions-bucket-kdcloudtec"
 
   tags = {
-    Name = "github-actions-test-bucket-kdcloudtec"
+    Name = "github-actions-bucket-kdcloudtec"
   }
 }
