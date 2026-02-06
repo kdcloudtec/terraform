@@ -5,11 +5,11 @@ on:
     branches: [main]
     paths:
       - 'network/**'
-      #- 'bucket/**'
+      ##- 'bucket/**'
   pull_request:
     paths:
       - 'network/**'
-      #- 'bucket/**'
+      ##- 'bucket/**'
 
 jobs:
   network:
